@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "ma-thien-ky",
+    "name": "Ma Thiên Ký",
     "slug": "ma-thien-ky",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": ["com.google.android.gms.permission.AD_ID"],
+      "package": "com.thanhpy.mathienky1",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82529117-03a4-43d5-9bc8-6edab847d8f2"
+      }
     }
   }
 }
